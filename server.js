@@ -9,10 +9,10 @@ var addFormPug = './template/addForm.pug';
 var editFormPug = './template/editForm.pug';
 
 var db = Client.createConnection({
-    host : 'us-cdbr-east-02.cleardb.com',
-    user : 'b2b02b4b638c75',
-    password : 'b6bcd367',
-    database : 'heroku_618a36d3cf74263'
+    host : 'https://my-test-bla.000webhostapp.com ',
+    user : 'id14801563_daffa',
+    password : '9]QI=_=X<O2ip/sX',
+    database : 'id14801563_testapp'
 })
 
 //memanggil method connect
