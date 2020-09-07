@@ -9,10 +9,10 @@ var addFormPug = './template/addForm.pug';
 var editFormPug = './template/editForm.pug';
 
 var db = Client.createConnection({
-    host : 'localhost',
-    user : 'irfan91',
-    password : '123',
-    database : 'ddmysql'
+    host : 'us-cdbr-east-02.cleardb.com',
+    user : 'b2b02b4b638c75',
+    password : 'b6bcd367',
+    database : 'heroku_618a36d3cf74263'
 })
 
 
