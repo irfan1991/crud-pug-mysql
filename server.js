@@ -15,6 +15,19 @@ var db = Client.createConnection({
     database : 'heroku_618a36d3cf74263'
 })
 
+//memanggil method connect
+db.connect(function (error) {
+    
+    if (error) {
+        console.log('Koneksi server MariaDB gagal ')
+        throw error;
+    }
+
+    console.log('Koneksi MariaDB berhasil ');
+    //conn.end();
+    
+})
+
 
 var server = http.createServer(function (request, response) {
     if (request.url === '/') {
